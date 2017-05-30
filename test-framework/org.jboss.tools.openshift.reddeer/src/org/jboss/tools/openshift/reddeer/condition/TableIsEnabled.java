@@ -10,8 +10,8 @@
  ******************************************************************************/
 package org.jboss.tools.openshift.reddeer.condition;
 
-import org.jboss.reddeer.common.condition.AbstractWaitCondition;
-import org.jboss.reddeer.swt.api.Table;
+import org.eclipse.reddeer.common.condition.AbstractWaitCondition;
+import org.eclipse.reddeer.swt.api.Table;
 
 /**
  * Wait condition waiting till specified table is active.

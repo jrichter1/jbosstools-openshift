@@ -10,8 +10,8 @@
  ******************************************************************************/
 package org.jboss.tools.cdk.reddeer.ui.wizard;
 
-import org.jboss.reddeer.swt.impl.button.CheckBox;
-import org.jboss.reddeer.swt.impl.text.LabeledText;
+import org.eclipse.reddeer.swt.impl.button.CheckBox;
+import org.eclipse.reddeer.swt.impl.text.LabeledText;
 
 public class CredentialsWizardPage {
 	

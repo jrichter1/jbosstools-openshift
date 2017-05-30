@@ -10,8 +10,8 @@
  ******************************************************************************/
 package org.jboss.tools.openshift.reddeer.condition.v2;
 
-import org.jboss.reddeer.common.condition.AbstractWaitCondition;
-import org.jboss.reddeer.common.exception.RedDeerException;
+import org.eclipse.reddeer.common.condition.AbstractWaitCondition;
+import org.eclipse.reddeer.common.exception.RedDeerException;
 import org.jboss.tools.openshift.reddeer.view.OpenShiftExplorerView;
 	
 /**

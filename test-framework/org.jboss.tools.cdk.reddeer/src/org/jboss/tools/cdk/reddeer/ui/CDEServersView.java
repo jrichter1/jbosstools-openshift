@@ -10,15 +10,13 @@
  ******************************************************************************/
 package org.jboss.tools.cdk.reddeer.ui;
 
-import org.jboss.reddeer.eclipse.wst.server.ui.view.Server;
-import org.jboss.reddeer.eclipse.wst.server.ui.view.ServersView;
-import org.jboss.reddeer.swt.api.TreeItem;
-import org.jboss.tools.cdk.reddeer.ui.CDEServer;
+import org.eclipse.reddeer.eclipse.wst.server.ui.cnf.Server;
+import org.eclipse.reddeer.eclipse.wst.server.ui.cnf.ServersView2;
 
-public class CDEServersView extends ServersView {
+public class CDEServersView extends ServersView2 {
 	
 	@Override
-	protected Server createServer(TreeItem item) {
-		return new CDEServer(item, this);
+	public Server getServer(String name) {
+		return getServer(CDEServer.class, name);
 	}
 }

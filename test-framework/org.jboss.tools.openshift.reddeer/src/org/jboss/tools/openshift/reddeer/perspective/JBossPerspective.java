@@ -10,7 +10,7 @@
  ******************************************************************************/
 package org.jboss.tools.openshift.reddeer.perspective;
 
-import org.jboss.reddeer.eclipse.ui.perspectives.AbstractPerspective;
+import org.eclipse.reddeer.eclipse.ui.perspectives.AbstractPerspective;
 /**
  * @deprecated Use org.jboss.tools.common.reddeer.perspectives.JBossPerspective instead
  */
